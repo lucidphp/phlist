@@ -5,7 +5,6 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/lucidphp/phlist/blob/master/LICENSE.md)
 
 [![Build Status](https://img.shields.io/travis/lucidphp/phlist/master.svg?style=flat-square)](https://travis-ci.org/lucidphp/phlist)
-
 [![Code Coverage](https://img.shields.io/coveralls/lucidphp/phlist/master.svg?style=flat-square)](https://coveralls.io/r/lucidphp/phlist)
 
 <!--
