@@ -146,7 +146,7 @@ class Phlist implements ListInterface, ArrayAccess, Countable, IteratorAggregate
     /**
      * {@inheritdoc}
      */
-    public function offsetSet($offset, $value) : void
+    public function offsetSet($offset, $value)
     {
         $this->push($value);
     }
@@ -162,7 +162,7 @@ class Phlist implements ListInterface, ArrayAccess, Countable, IteratorAggregate
     /**
      * {@inheritdoc}
      */
-    public function offsetUnset($offset) : void
+    public function offsetUnset($offset)
     {
         unset($this->data[$offset]);
     }
