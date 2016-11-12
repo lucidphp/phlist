@@ -7,7 +7,7 @@ matrix:
   include:
     - php: 7.0
       env:
-      - CODE_COVERAGE_LOG: true
+      - CS_CHECK_ENABLED: false
     - php: 7.1
       env:
       - CS_CHECK_ENABLED: true
