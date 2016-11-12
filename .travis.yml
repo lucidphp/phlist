@@ -9,6 +9,7 @@ matrix:
       env:
       - CODE_COVERAGE_LOG: true
     - php: 7.1
+      env:
       - CS_CHECK_ENABLED: true
 
 before_install:
