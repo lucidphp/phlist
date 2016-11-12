@@ -6,13 +6,10 @@ matrix:
   fast_finish: true
   include:
     - php: 7.0
-    - php: 7.1
       env:
       - CS_CHECK_ENABLED: true
       - CODE_COVERAGE_LOG: true
-  #  - php: hhvm
-  #allow_failures:
-  #  - php: hhvm
+    - php: 7.1
 
 before_install:
   - php -n `which composer` self-update
