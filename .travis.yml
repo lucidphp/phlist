@@ -7,9 +7,9 @@ matrix:
   include:
     - php: 7.0
       env:
-      - CS_CHECK_ENABLED: true
       - CODE_COVERAGE_LOG: true
     - php: 7.1
+      - CS_CHECK_ENABLED: true
 
 before_install:
   - php -n `which composer` self-update
